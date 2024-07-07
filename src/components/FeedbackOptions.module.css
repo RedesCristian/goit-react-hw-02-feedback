@@ -1,0 +1,24 @@
+.container {
+  display: block;
+}
+.btn {
+  width: 60px;
+  height: 60px;
+  border: none;
+  outline: solid 0.5px teal;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: cadetblue;
+}
+.btnSpace {
+  padding-left: 170px;
+}
+@media screen and (max-width: 650px) {
+  .btnSpace {
+    display: block;
+    padding: 0;
+  }
+}

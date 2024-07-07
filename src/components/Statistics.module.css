@@ -1,0 +1,13 @@
+.statistics {
+  list-style: none;
+}
+.good {
+  color: green;
+}
+.neutral {
+  color: rgb(192, 154, 30);
+}
+
+.bad {
+  color: red;
+}

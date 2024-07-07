@@ -1,5 +1,5 @@
 import React from 'react';
-import FeedbackWidget from './FeedbackWidget';
+import SectionTitle from './SectionTitle';
 
 export const App = () => {
   return (
@@ -9,11 +9,16 @@ export const App = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        flexDirection: 'column',
         fontSize: 40,
         color: '#010101',
+        backgroundColor: 'lightgrey',
+        paddingLeft: '120px',
+        margin: '0',
       }}
     >
-      <FeedbackWidget />
+      <SectionTitle />
     </div>
   );
 };
+export default App;
